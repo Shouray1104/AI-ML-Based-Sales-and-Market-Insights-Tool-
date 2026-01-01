@@ -6,12 +6,6 @@ The complete workflow is implemented in a single Jupyter Notebook, organized int
 
 To avoid confidentiality issues associated with real business data, the project uses synthetically generated data (5,500+ samples) that statistically simulates real-world sales behavior.
 
----
-
-## Project Duration
-April 2025 – August 2025
-
----
 
 ## Objectives
 - Generate realistic synthetic sales and customer data
@@ -21,13 +15,11 @@ April 2025 – August 2025
 - Apply validation loops and sanity checks for stability
 - Extract interpretable business insights from model outputs
 
----
-
 ## Project Structure
 
 The project is intentionally implemented in a single notebook to simplify review, interview discussion, and reproducibility.
 
----
+
 
 ## Dataset Description
 - Type: Synthetic (randomly generated)
@@ -44,7 +36,7 @@ The project is intentionally implemented in a single notebook to simplify review
 
 The target variable is derived from a controlled combination of purchase behavior and marketing effectiveness to simulate realistic sales outcomes.
 
----
+
 
 ## Data Quality and Sanity Checks
 - Null value validation
@@ -54,7 +46,6 @@ The target variable is derived from a controlled combination of purchase behavio
 - Prevention of target leakage
 - Fixed random seeds for reproducibility
 
----
 
 ## Models Used
 
@@ -66,7 +57,7 @@ Chosen for simplicity and interpretability and used as a statistical baseline.
 Random Forest Classifier  
 Captures non-linear relationships and feature interactions and is more robust to noise.
 
----
+
 
 ## Evaluation Strategy
 - Stratified train–test split
@@ -78,7 +69,7 @@ Captures non-linear relationships and feature interactions and is more robust to
 - Confusion matrix and classification report
 - Feature importance analysis
 
----
+
 
 ## Results and Performance
 - Random Forest consistently outperformed the baseline model
@@ -87,25 +78,22 @@ Captures non-linear relationships and feature interactions and is more robust to
 - Cross-validation confirmed performance stability
 - No significant overfitting observed
 
----
+
 
 ## Business Insights
 - Purchase frequency and average order value are the strongest predictors of sales success
 - Marketing spend shows diminishing returns beyond a threshold
 - Regional influence significantly affects conversion likelihood
 
----
 
 ## Reproducibility
 Reproducibility is ensured through fixed random seeds, deterministic preprocessing steps, and a single documented notebook pipeline.
-
----
 
 ## Limitations
 - The dataset is synthetic and does not capture real-world seasonality or external market shocks
 - Designed primarily for demonstration and interview discussion
 
----
+
 
 ## Future Enhancements
 - Incorporate time-based and seasonal features
@@ -114,7 +102,7 @@ Reproducibility is ensured through fixed random seeds, deterministic preprocessi
 - Build a business-facing dashboard
 - Introduce cost-sensitive learning
 
----
+
 
 ## Technologies Used
 - Python
@@ -125,7 +113,7 @@ Reproducibility is ensured through fixed random seeds, deterministic preprocessi
 - Seaborn
 - Jupyter Notebook
 
----
+
 
 ## How to Run
 1. Clone the repository
